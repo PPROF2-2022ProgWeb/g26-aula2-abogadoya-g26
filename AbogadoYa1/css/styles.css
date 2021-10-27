@@ -10,14 +10,42 @@ font-family: 'Roboto', sans-serif;
 body {
   margin: 0;
   font-size: 12px;
+  background-color:#000000;
+
 }
 
 .init {
-  background-color: #251d27;
+  
+    background-image: url("/assets/imagenes/fondo3.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    height: 100vh;
+    padding: 20px;
   height: 100vh;
   padding: 20px;
 }
 
+.register {
+  
+  background-image: url("/assets/imagenes/law.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  height: 100vh;
+  padding: 20px;
+height: 100vh;
+padding: 20px;
+}
+
+.base {
+  
+  background-image: url("/assets/imagenes/balanza1.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  height: 100vh;
+  padding: 20px;
+height: 100vh;
+padding: 20px;
+}
 .navbar-header {
   display: flex;
   align-items: center;
@@ -54,6 +82,7 @@ body {
   /* height: calc(100% - 40px);*/
   height: 85vh;
   padding: 0 10px;
+  background-color: #251d27;
 }
 
 .welcome h1 {
@@ -349,6 +378,7 @@ body {
 }
 .contact {
   padding: 20px;
+  color: #251d27;
 }
 .contact h1 {
   font-family: 'Lato';
@@ -360,6 +390,7 @@ body {
   font-family: 'Roboto';
   color: #908d90;
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
