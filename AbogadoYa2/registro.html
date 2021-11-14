@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Registrarme en AbogadoYa"/>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" />
+    <link rel="icon" href="assets/iconos/icono.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="bases.html"></script>
+    <title>Registro</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body class="register">
+    
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="logo" id="logo3">
+          <img src="assets/imagenes/Logo.png" alt="logo" />
+        </div>
+          <div class="container-fluid" id="containerfluid1">
+          <a class="navbar-brand" href="index.html">ABOGADO YA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" id="servicios" aria-current="page" href="/index.html#services">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" id="nosotros1" aria-current="page" href="/index.html#nosotros">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" id="contacto" aria-current="page" href="/index.html#contact">CONTACTO</a>
+              </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="registrate" aria-current="page" href="/registro.html">REGISTRATE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="micuenta" aria-current="page" href="/bases.html">MI CUENTA</a>
+            </li>
+            </ul>
+            <form class="d-flex">
+           
+              <a class="btn btn-lg btn-primary" target="_blank" onclick="confirmacion()" type="submit">BUSCAR EXPEDIENTE</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+      
+    
+    
+
+    <!--Contacto-->
+    
+ 
+    
+      <div class= "contact" id="contact4">
+        <br>
+        <br>
+        <br>
+      <h1>Registrate</h1>
+      <p>
+        Registrate para realizar un seguimiento de tus casos.
+      </p>
+      
+      <form action="" onsubmit="return validarFormulario()">
+        <label for="nombre">
+          <span>Nombre y Apellido:</span>
+        </label>
+        <input class="form-control" id="nombre" name="nombre" type="text">
+        
+        <br><br>
+          
+     
+        <label for="edad">
+          <span>Contraseña:</span>
+        </label>
+        <input class="form-control" id="edad" name="edad" type="number">
+
+           
+        <br><br>
+
+        <label for="correo">
+          <span>Correo electrónico:</span>
+        </label>
+        <input class="form-control" id="correo" name="correo" type="text">
+        
+        <br><br>
+        
+        <label for="fecha">
+          <span>Fecha de Nacimiento:</span>
+        </label>
+        <input class="form-control" id="fecha" name="fecha" type="date">
+     
+        <br><br>
+     
+        <label for="selector">
+          <span>Selecciona una opción:</span>
+        </label>
+        <select id="selector" name="selector">
+          <option value="">Sexo</option>
+          <option value="1">Masculino</option>
+          <option value="2">Femenino</option>
+          <option value="3">Otro </option>
+        </select>
+     
+        <br><br>
+
+        <label for="direccion">
+          <span>Direccion:</span>
+        </label>
+        <input class="form-control" id="direccion" name="direccion" type="text">
+
+        <br><br>
+
+             
+        <label for="checkBox">
+          <span>Acepto los terminos y condiciones:</span>
+        </label>
+        <input id="checkBox" name="checkBox" type="checkbox"> 
+        
+        <br><br>
+     
+        <label for="radioButton">
+          <span>Seleccione su region:</span>
+        </label><br>
+        <input type="radio" id="radioButton" name="radioButton"> Cordoba Capital<br>
+        <input type="radio" id="radioButton" name="radioButton"> Interior Cordoba<br>
+        <input type="radio" id="radioButton" name="radioButton"> Otras Provincias
+        
+        <br><br>
+     
+        <input type="submit" value="Enviar"> 
+     
+      </form>
+      
+
+        
+        <div class="social">
+
+          <h3>Si tenes algun problema contactate</h3>
+          <ul>
+            <li class="social-list">
+              <img src="assets/iconos/envelope.png" alt="icono" />
+              estudiojuridico@consultas.com
+            </li>
+            <li class="social-list">
+              <img src="assets/iconos/whatsapp.png" alt="icono" />
+              +5493516805029
+            </li>
+            <li class="social-list">
+              <img src="assets/iconos/phone.png" alt="icono" />
+              4556677
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+    
+    <!--Pie Pagina-->
+    <footer>
+      
+      <p>
+        Todos los derechos reservados
+        <span>
+          <img src="assets/iconos/copyright-regular.png" alt="icono" />
+        </span>
+        Estudio Jurídico 2021
+      </p>
+   
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/funcionesGrupo99.js"></script>
+  </body>
+  
+
+</html>
