@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(fondo.png) no-repeat center top;
+    background-size: cover;
+}
+
+.logo1{
+    border-radius: 8%;
+    width: 300px;
+    padding: 5px;
+}
+  
+  .form-login {
+    width: 400px;
+    height: 340px;
+    background: #251D27;
+    margin: auto;
+    margin-top: 90px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    
+    color: #FCCF08;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 20px;
+  }
+  
+  .titulos{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #251D27;
+  }
+
+  .titulo label{
+      background-color: #251D27;
+  }
+  
+  .controls {
+    width: 75%;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    color: #FCCF08;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 9px;
+    text-align: center;
+  }
+  
+  .buttons {
+    width: 75%;
+    height: 40px;
+    background: #FCCF08;
+    border: none;
+    color: black;
+    margin-bottom: 16px;
+  }
+
+  .buttons:hover{
+      color: #FCCF08;
+      background-color: #251D27;
+  }
+  
+  .Iniciar{
+    height: 40px;
+    text-align: center;
+    color: #FCCF08;
+    background-color: transparent;
+  }
+
+  .Iniciar:hover{
+    color: #FCCF08;
+    font-size: 23px;
+  }
+
+  .usuario{
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    color: #FCCF08;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .datos{
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+    background: #252323;
+    color: #FCCF08;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+  }
