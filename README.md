@@ -7,4 +7,8 @@ Subida provisoriamente a hosting gratuito
 https://miultimodia.000webhostapp.com/
 Aula2-abogadoya-g26
 
+Scrum máster: Mugas Alvaro
+
+
+
 
