@@ -1,9 +1,11 @@
 ABOGADOYA APP
+
 La pagina es un estudio juridico en el cual fuimos implementando primero todas las cosas basicas de Html, css y javascript (version1) 
 incluyendo un login  con backend en php y una base de datos generada en Mysql workbench.
 En segunda instancia se paso la pagina a Angular en el frontend y se genero un backend en Spring Boot y la base de datos de mantuvo en Mysql.
 Permitiendo generar las operaciones basicas CRUD y conectar el front con el back. 
 Y se implemento una tienda virtual como paso final. 
+
 
 Página web creada para la materia Práctica Profesional
 Carrera Técnico Superior en desarrollo web y de aplicaciones digitales
@@ -11,6 +13,7 @@ Instituto superior politécnico Córdoba
 Grupo 26. Aula 2.
 Alumno: Mugas Alvaro
 El resto del grupo dejo la materia. 
+
 
 Primera Version: 
 en Html5 + CSS + Javascript y backend con PHP
