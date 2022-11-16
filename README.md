@@ -27,7 +27,11 @@ Scrum máster: Mugas Alvaro
 Segunda Version: 
 Se actualiza a la version con Ecommerce - FRONTEND: Angular - BACKEND: Spring Boot - BASE DE DATOS: MySql
 
+Video explicativo : 
+https://www.loom.com/share/1996d73d57b84dcdb1900d8f2e766e8e
+
 Se incluyen:
+
 -Imagenes de la pagina web
 -Diagrama relacional de base de datos, 
 -Diagrama de casos de uso y 
