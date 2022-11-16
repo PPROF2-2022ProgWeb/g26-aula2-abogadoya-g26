@@ -1,0 +1,36 @@
+<body id=top2 class="tienda3">
+<div class="px-5 col-12" style="margin-top: 5rem;">
+    <h1 class="mx-auto text-center mb-5">Tu Cuenta</h1>
+    <form class="col-4 mx-auto mt-5" action="" (submit)="logIn()">
+        <input 
+            type="text" 
+            placeholder="Usuario" 
+            name="username" 
+            id="username" 
+            style="border: 1px solid rgb(5, 5, 5);" 
+            class="my-3 bg-transparent rounded p-2 col-12 d-block text-dark" 
+            [(ngModel)]="username"
+        />
+        <input 
+            type="password" 
+            placeholder="Contraseña" 
+            name="password" 
+            id="password" 
+            style="border: 1px solid rgb(5, 5, 5);" 
+            class="my-3 bg-transparent rounded p-2 col-12 d-block text-dark" 
+            [(ngModel)]="password"
+        />
+        <input 
+            type="submit"
+            value="Ingresa" 
+            style="border: 1px solid rgb(5, 5, 5);" 
+            class="btn btn-primary" 
+        />
+        <h4 
+            *ngIf="error"
+            style="text-align: center;" 
+            class="alert-danger p-2 m-5 rounded"
+        >{{error}}</h4>
+    </form>
+</div>
+</body>

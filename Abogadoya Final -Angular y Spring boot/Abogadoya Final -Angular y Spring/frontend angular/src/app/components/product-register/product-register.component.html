@@ -1,0 +1,72 @@
+<body class="tienda3">
+    <div class="px-5 col-12" style="margin-top: 5rem;">
+        <h1 class="mx-auto text-center mb-5">Carga tus productos</h1>
+        <form class="col-7 mx-auto mt-5" action="" >
+            <div class="d-flex col-12 my-3">
+                <input 
+                    type="number" 
+                    placeholder="id" 
+                    name="id" 
+                    id="id" 
+                    style="flex: 1; border: 1px solid rgb(5, 5, 5);" 
+                    class="mx-3 bg-transparent rounded p-2 text-dark"
+                    [(ngModel)]="id"
+                />
+                <input 
+                    type="text" 
+                    placeholder="Producto" 
+                    name="name" 
+                    id="name" 
+                    style="flex: 2; border: 1px solid rgb(5, 5, 5);" 
+                    class="mx-3 bg-transparent rounded p-2 text-dark" 
+                    [(ngModel)]="name"
+                />
+            </div>
+            <div class="d-flex col-12 my-3">
+                <input 
+                    type="text" 
+                    placeholder="Descripcion" 
+                    name="description" 
+                    id="description" 
+                    style="flex: 1; border: 1px solid rgb(5, 5, 5);" 
+                    class="mx-3 bg-transparent rounded p-2 text-dark"
+                    [(ngModel)]="description"
+                />
+                <input 
+                    type="date" 
+                    placeholder="Fecha de alta" 
+                    name="addedOn" 
+                    id="addedOn" 
+                    style="flex: 1; border: 1px solid rgb(5, 5, 5);" 
+                    class="mx-3 bg-transparent rounded p-2 text-dark" 
+                    [(ngModel)]="addedOn"
+                />
+            </div>
+            <div class="d-flex col-12 my-3">
+                <input 
+                    type="text" 
+                    placeholder="url de la imagen" 
+                    name="address" 
+                    id="address" 
+                    style="flex: 4; border: 1px solid rgb(5, 5, 5);" 
+                    class="mx-3 bg-transparent rounded p-2 text-dark"
+                    [(ngModel)]="imageUrl"
+                
+              
+                />
+            </div>
+         
+               <input 
+                type="submit"
+                value="Registrar" 
+                style="border: 1px solid rgb(5, 5, 5);" 
+                class="mx-3 mt-5 rounded p-2 col-2 d-block btn btn-primary" 
+            />
+            <h4 
+                *ngIf="error"
+                style="text-align: center;" 
+                class="alert-danger p-2 m-5 rounded"
+            >{{error}}</h4>
+        </form>
+    </div>
+    </body>

@@ -1,0 +1,54 @@
+<body class="tienda1">
+    <div class="mx-5" style="margin-top: 5rem;">
+        <style>
+            table * {
+                color: white;
+                border: none;
+            }
+        </style>
+        <h1 style="color:rgb(52, 189, 59);">Pagado correctamente</h1>
+        <h2 style="color:white;">Tu compra:</h2>
+        <table class="table mt-5">
+            <thead style="background-color: #fff2; border: none;" class="mb-5">
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Fecha de compra</th>
+                <th scope="col">Total</th>
+              </tr>
+            </thead>
+            <tbody *ngFor="let item of cartItems; let i = index">
+                <tr>
+                    <th scope="row" routerLink="/shop/products/{{item.product.id}}">{{item.product.name}}</th>
+                    <td>${{item.product.price | number: '1.2-2'}}</td>
+                    <td>
+                        <div class="d-flex" style="align-items: center;">
+                            <p style="margin-right: 1rem;">{{ item.quantity }}</p>
+                        
+                        
+                        </div>
+                    </td>
+                    <td>{{item.addedOn | date: 'MM/dd/YYYY'}}</td>
+                    <td>${{item.totalPrice | number: '1.2-2'}}</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><h4 class="text font-weight-bold" style="background-color: rgba(8, 8, 8, 0.589); border: none;">${{getTotal() | number: '1.2-2'}}</h4></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  
+                  </tr>
+            </tbody>
+        </table>
+    </div>
+    </body>
